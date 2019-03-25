@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+body {
+	background: #e9e9e9;
+	color: #9a9a9a;
+	font: 100%/1.5em "Droid Sans", sans-serif;
+	margin: 0;
+}
+
+h4, h5 {
+	line-height: 1.5em;
+	margin: 0;
+}
+
+hr {
+	background: #e9e9e9;
+    border: 0;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 1px;
+    margin: 0;
+    min-height: 1px;
+}
+
+/* ---------- LIVE-CHAT ---------- */
+
+#live-chat {
+	font-size: 14px;
+}
+
+#live-chat header {
+	background: #293239;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	padding: 16px 24px;
+}
+
+#live-chat h4:before {
+	background: #1a8a34;
+	border-radius: 50%;
+	content: "";
+	display: inline-block;
+	height: 8px;
+	margin: 0 8px 0 0;
+	width: 8px;
+}
+
+#live-chat h4 {
+  font-size: 14px;
+}
+
+#live-chat h5 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#live-chat p {
+  font-size: 14px;
+}
+
+#live-chat form {
+	padding: 24px;
+}
+
+.chat {
+	background: #fff;
+}
+
+.chat-history {
+	height: 500px;
+	padding: 8px 24px;
+	overflow-y: scroll;
+}
+
+.chat-message {
+	margin: 16px 0;
+}
+
+.chat-message-content {
+	margin-left: 1%;
+}
+
+/* ---------- LIVE-USER ---------- */
+
+#live-user {
+  font-size: 14px;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+#live-user header {
+	background: #293239;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	padding: 16px 24px;
+}
+
+#live-user h4 {
+  font-size: 16px;
+  
+}
+
+.user {
+	background: #fff;
+}
+
+.user-history {
+  height: auto;
+  min-width: 200px;
+  max-width: 500px;
+	padding: 2px 20px;
+  overflow-y: scroll;
+  border: 2px solid #293239;
+  border-radius: 0 0 5px 5px;
+}
+
+.user-message {
+	margin: 16px 0;
+}
+
+.user-list-content {
+  margin: 16px 0;
+}
