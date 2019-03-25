@@ -4,13 +4,13 @@ CIENT :  npm install
          npm start
          localhost:3000
 
-SERVER: lancer la solution dans visual studio
-	ou
-	via Cli =>	dotnet build
+SERVER: Using visual studio
+	or
+	 Cli =>	dotnet build
 	      		dotnet publish
 		     	dotnet run 
 
-	global.json contient la version du SDK
+	global.json for SDK version
 	
 
-telnet: se connecter sur localhost:9001
+telnet: on localhost:9001
